@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fc85dbc-f0e7-43e8-850a-4fe722eafcf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/data_source.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/fileload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/jsonload.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,6 +20,7 @@
     <SUITE FILE_PATH="coverage/kw_db$match_ch.coverage" NAME="match_ch Coverage Results" MODIFIED="1586166502454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/kw_db$fileload.coverage" NAME="fileload Coverage Results" MODIFIED="1587369140910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
     <SUITE FILE_PATH="coverage/kw_db$test.coverage" NAME="test Coverage Results" MODIFIED="1586113650874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/kw_db$jsonload.coverage" NAME="jsonload Coverage Results" MODIFIED="1588931600336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
     <SUITE FILE_PATH="coverage/kw_db$first.coverage" NAME="first Coverage Results" MODIFIED="1586264022366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
     <SUITE FILE_PATH="coverage/kw_db$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1586113753962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
     <SUITE FILE_PATH="coverage/kw_db$1.coverage" NAME="1 Coverage Results" MODIFIED="1586265283453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/learn/soup" />
@@ -35,11 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/fileload.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="46">
+              <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/jsonload.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="68" column="47" lean-forward="true" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -48,10 +61,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/data_source.txt">
+        <entry file="file://$PROJECT_DIR$/data/data.json">
           <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="506">
-              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="368">
+              <caret column="1158" selection-start-column="1151" selection-end-column="1158" />
             </state>
           </provider>
         </entry>
@@ -59,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider/first.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="74" column="33" lean-forward="true" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+            <state relative-caret-position="1610">
+              <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -84,6 +97,7 @@
       <find>DATAGRID_ROW</find>
       <find>鲟</find>
       <find>南非</find>
+      <find>name_cn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,6 +113,7 @@
         <option value="$PROJECT_DIR$/spider/first.py" />
         <option value="$PROJECT_DIR$/spider/learn/soup/1.py" />
         <option value="$PROJECT_DIR$/db/fileload.py" />
+        <option value="$PROJECT_DIR$/db/jsonload.py" />
       </list>
     </option>
   </component>
@@ -109,8 +124,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="449" />
-    <option name="y" value="72" />
+    <option name="x" value="548" />
+    <option name="y" value="83" />
     <option name="width" value="1400" />
     <option name="height" value="901" />
   </component>
@@ -156,11 +171,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\kw_db\data" />
+      <recent name="E:\kw_db\spider" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\kw_db\data" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\kw_db\spider" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -175,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fileload">
+  <component name="RunManager" selected="Python.jsonload">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kw_db" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,6 +258,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="jsonload" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="kw_db" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/db" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db/jsonload.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="learn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kw_db" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,35 +302,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="match_ch" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="kw_db" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/match_ch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jsonload" />
         <item itemvalue="Python.fileload" />
         <item itemvalue="Python.1" />
         <item itemvalue="Python.first" />
         <item itemvalue="Python.learn" />
-        <item itemvalue="Python.match_ch" />
       </list>
     </recent_temporary>
   </component>
@@ -314,16 +330,20 @@
       <workItem from="1586261754342" duration="3045000" />
       <workItem from="1586592726451" duration="797000" />
       <workItem from="1587364502536" duration="5832000" />
+      <workItem from="1587388316733" duration="1285000" />
+      <workItem from="1588421789740" duration="856000" />
+      <workItem from="1588928743403" duration="3983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43658000" />
+    <option name="totallyTimeSpent" value="49782000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="449" y="72" width="1400" height="901" extended-state="0" />
+    <frame x="548" y="83" width="1400" height="901" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2761194" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28955224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -392,6 +412,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spider/first.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1610">
+          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/learn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -399,27 +429,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/first.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="74" column="33" lean-forward="true" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/data_source.txt">
       <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="506">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="391">
+          <caret line="17" column="359" selection-start-line="17" selection-start-column="359" selection-end-line="17" selection-end-column="359" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/fileload.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/data.json">
+      <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="368">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <caret column="1158" selection-start-column="1151" selection-end-column="1158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/jsonload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="68" column="47" lean-forward="true" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
