@@ -10,7 +10,7 @@ class ArticleSpider(scrapy.Spider):
         ]
         return [scrapy.Request(url=url, callback=self.parse) for url in urls]
 
-    def parse(self, response):
+    def parse(self, response: scrapy.http.HtmlResponse):
         url = response.url
         title = response.css('h1::text').extract_first()
         print("url is : {}".format(url))
