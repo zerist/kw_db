@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fc85dbc-f0e7-43e8-850a-4fe722eafcf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spider/struct_spider/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/struct_spider/bySearch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider/struct_spider/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wikispSpider/wikispSpider/spiders/article.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/kw_db$bySearch.coverage" NAME="bySearch Coverage Results" MODIFIED="1590719411420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/struct_spider" />
+    <SUITE FILE_PATH="coverage/kw_db$bySearch.coverage" NAME="bySearch Coverage Results" MODIFIED="1590738751954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/struct_spider" />
     <SUITE FILE_PATH="coverage/kw_db$learn.coverage" NAME="learn Coverage Results" MODIFIED="1586174308912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
     <SUITE FILE_PATH="coverage/kw_db$match_ch.coverage" NAME="match_ch Coverage Results" MODIFIED="1586166502454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/kw_db$fileload.coverage" NAME="fileload Coverage Results" MODIFIED="1587369140910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
@@ -29,23 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider/struct_spider/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spider/struct_spider/bySearch.py">
+        <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/spiders/article.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="44" column="10" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="230">
+              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -86,6 +73,8 @@
         <option value="$PROJECT_DIR$/spider/struct_spider/models.py" />
         <option value="$PROJECT_DIR$/spider/struct_spider/__init__.py" />
         <option value="$PROJECT_DIR$/spider/struct_spider/bySearch.py" />
+        <option value="$PROJECT_DIR$/wikispSpider/scrapy.cfg" />
+        <option value="$PROJECT_DIR$/wikispSpider/wikispSpider/spiders/article.py" />
       </list>
     </option>
   </component>
@@ -96,10 +85,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="y" value="161" />
+    <option name="x" value="607" />
+    <option name="y" value="96" />
     <option name="width" value="1400" />
-    <option name="height" value="901" />
+    <option name="height" value="863" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -107,7 +96,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,23 +106,26 @@
             <path>
               <item name="kw_db" type="b2602c69:ProjectViewProjectNode" />
               <item name="kw_db" type="462c0819:PsiDirectoryNode" />
-              <item name="display" type="462c0819:PsiDirectoryNode" />
+              <item name="wikispSpider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kw_db" type="b2602c69:ProjectViewProjectNode" />
               <item name="kw_db" type="462c0819:PsiDirectoryNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="wikispSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="wikispSpider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kw_db" type="b2602c69:ProjectViewProjectNode" />
               <item name="kw_db" type="462c0819:PsiDirectoryNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="struct_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="wikispSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="wikispSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,21 +301,22 @@
       <workItem from="1589543463186" duration="29000" />
       <workItem from="1590646888885" duration="2390000" />
       <workItem from="1590716842030" duration="2812000" />
+      <workItem from="1590736171323" duration="3799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55030000" />
+    <option name="totallyTimeSpent" value="58829000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="161" width="1400" height="901" extended-state="0" />
+    <frame x="607" y="96" width="1400" height="863" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3074627" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19179104" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49850747" weight="0.31290743" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49850747" weight="0.3127572" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,8 +325,8 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50149256" side_tool="true" weight="0.32968536" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3285528" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32968536" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32784638" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -416,13 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/struct_spider/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider/struct_spider/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -450,13 +435,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spider/struct_spider/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spider/struct_spider/bySearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="44" column="10" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        <state relative-caret-position="402">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikispSpider/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1404" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/items.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/spiders/article.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
         </state>
       </provider>
     </entry>
