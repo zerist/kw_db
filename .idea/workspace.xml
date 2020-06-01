@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fc85dbc-f0e7-43e8-850a-4fe722eafcf2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/wikispSpider/wikispSpider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/wikispSpider/wikispSpider/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wikispSpider/wikispSpider/spiders/article.py" beforeDir="false" afterPath="$PROJECT_DIR$/wikispSpider/wikispSpider/spiders/article.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +19,7 @@
     <SUITE FILE_PATH="coverage/kw_db$bySearch.coverage" NAME="bySearch Coverage Results" MODIFIED="1590738751954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/struct_spider" />
     <SUITE FILE_PATH="coverage/kw_db$learn.coverage" NAME="learn Coverage Results" MODIFIED="1586174308912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
     <SUITE FILE_PATH="coverage/kw_db$match_ch.coverage" NAME="match_ch Coverage Results" MODIFIED="1586166502454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/kw_db$Unittests_for_test1_TestAddition_test_case1.coverage" NAME="Unittests for test1.TestAddition.test_case1 Coverage Results" MODIFIED="1591004249017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/kw_db$fileload.coverage" NAME="fileload Coverage Results" MODIFIED="1587369140910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
     <SUITE FILE_PATH="coverage/kw_db$test.coverage" NAME="test Coverage Results" MODIFIED="1586113650874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
     <SUITE FILE_PATH="coverage/kw_db$jsonload.coverage" NAME="jsonload Coverage Results" MODIFIED="1588931600336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
@@ -31,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/spiders/article.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -41,11 +43,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testcase/test1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -54,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/wikispSpider/scrapy.cfg">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -100,6 +111,7 @@
         <option value="$PROJECT_DIR$/wikispSpider/scrapy.cfg" />
         <option value="$PROJECT_DIR$/wikispSpider/wikispSpider/spiders/article.py" />
         <option value="$PROJECT_DIR$/wikispSpider/wikispSpider/settings.py" />
+        <option value="$PROJECT_DIR$/testcase/test1.py" />
       </list>
     </option>
   </component>
@@ -109,9 +121,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="822" />
-    <option name="y" value="139" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="62" />
+    <option name="y" value="142" />
     <option name="width" value="1400" />
     <option name="height" value="863" />
   </component>
@@ -121,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,26 +144,12 @@
             <path>
               <item name="kw_db" type="b2602c69:ProjectViewProjectNode" />
               <item name="kw_db" type="462c0819:PsiDirectoryNode" />
-              <item name="wikispSpider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kw_db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kw_db" type="462c0819:PsiDirectoryNode" />
-              <item name="wikispSpider" type="462c0819:PsiDirectoryNode" />
-              <item name="wikispSpider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kw_db" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kw_db" type="462c0819:PsiDirectoryNode" />
-              <item name="wikispSpider" type="462c0819:PsiDirectoryNode" />
-              <item name="wikispSpider" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bySearch">
+  <component name="RunManager" selected="Python tests.Unittests for test1.TestAddition.test_case1">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kw_db" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -247,28 +246,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="first" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="kw_db" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/first.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="jsonload" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kw_db" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,13 +268,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test1.TestAddition.test_case1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="kw_db" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test1.TestAddition.test_case1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test1.TestAddition.test_case1" />
         <item itemvalue="Python.bySearch" />
         <item itemvalue="Python.jsonload" />
         <item itemvalue="Python.fileload" />
         <item itemvalue="Python.1" />
-        <item itemvalue="Python.first" />
       </list>
     </recent_temporary>
   </component>
@@ -326,23 +318,26 @@
       <workItem from="1589543463186" duration="29000" />
       <workItem from="1590646888885" duration="2390000" />
       <workItem from="1590716842030" duration="2812000" />
-      <workItem from="1590736171323" duration="9303000" />
+      <workItem from="1590736171323" duration="9789000" />
+      <workItem from="1590817378519" duration="595000" />
+      <workItem from="1590896073542" duration="637000" />
+      <workItem from="1591003884639" duration="387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64333000" />
+    <option name="totallyTimeSpent" value="66438000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="822" y="139" width="1400" height="863" extended-state="0" />
+    <frame x="62" y="142" width="1400" height="863" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19179104" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20074627" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49850747" weight="0.3127572" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49850747" visible="true" weight="0.3127572" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -350,8 +345,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50149256" side_tool="true" weight="0.32968536" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32784638" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32921812" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32739726" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -490,27 +485,34 @@
     <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikispSpider/scrapy.cfg">
+    <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/spiders/article.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="368">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/items.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/spiders/article.py">
+    <entry file="file://$PROJECT_DIR$/wikispSpider/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="207">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
