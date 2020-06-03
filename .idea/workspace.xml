@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fc85dbc-f0e7-43e8-850a-4fe722eafcf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testcase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stratage/SimpleFactory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stratage/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +26,7 @@
     <SUITE FILE_PATH="coverage/kw_db$first.coverage" NAME="first Coverage Results" MODIFIED="1586264022366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
     <SUITE FILE_PATH="coverage/kw_db$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1586113753962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
     <SUITE FILE_PATH="coverage/kw_db$1.coverage" NAME="1 Coverage Results" MODIFIED="1586265283453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/learn/soup" />
+    <SUITE FILE_PATH="coverage/kw_db$SimpleFactory.coverage" NAME="SimpleFactory Coverage Results" MODIFIED="1591152106031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stratage" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -46,17 +47,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="368">
               <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/test1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stratage/SimpleFactory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -112,6 +122,7 @@
         <option value="$PROJECT_DIR$/wikispSpider/wikispSpider/spiders/article.py" />
         <option value="$PROJECT_DIR$/wikispSpider/wikispSpider/settings.py" />
         <option value="$PROJECT_DIR$/testcase/test1.py" />
+        <option value="$PROJECT_DIR$/stratage/SimpleFactory.py" />
       </list>
     </option>
   </component>
@@ -121,9 +132,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="62" />
-    <option name="y" value="142" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="296" />
+    <option name="y" value="134" />
     <option name="width" value="1400" />
     <option name="height" value="863" />
   </component>
@@ -144,7 +155,7 @@
             <path>
               <item name="kw_db" type="b2602c69:ProjectViewProjectNode" />
               <item name="kw_db" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="stratage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,8 +190,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test1.TestAddition.test_case1">
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.SimpleFactory">
+    <configuration name="SimpleFactory" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kw_db" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,12 +199,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider/learn/soup" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stratage" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/learn/soup/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stratage/SimpleFactory.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SimpleFactory" />
         <item itemvalue="Python tests.Unittests for test1.TestAddition.test_case1" />
         <item itemvalue="Python.bySearch" />
         <item itemvalue="Python.jsonload" />
         <item itemvalue="Python.fileload" />
-        <item itemvalue="Python.1" />
       </list>
     </recent_temporary>
   </component>
@@ -321,18 +332,23 @@
       <workItem from="1590736171323" duration="9789000" />
       <workItem from="1590817378519" duration="595000" />
       <workItem from="1590896073542" duration="637000" />
-      <workItem from="1591003884639" duration="387000" />
+      <workItem from="1591003884639" duration="1030000" />
+      <workItem from="1591151564569" duration="543000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test1_TestAddition_test_case1 - 2020.06.01 at 17h 37m 29s.xml">
+      <configuration name="Unittests for test1.TestAddition.test_case1" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66438000" />
+    <option name="totallyTimeSpent" value="67624000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="142" width="1400" height="863" extended-state="1" />
-    <editor active="true" />
+    <frame x="296" y="134" width="1400" height="863" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20074627" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20373134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -495,6 +511,13 @@
     <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/items.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wikispSpider/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -502,17 +525,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wikispSpider/wikispSpider/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/test1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stratage/SimpleFactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
