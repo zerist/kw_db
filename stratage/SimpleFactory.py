@@ -1,21 +1,41 @@
-class Program:
-    def __init__(self, a, b, op):
+class Opreation:
+    def __init__(self, a=None, b=None):
         self.a = a
         self.b = b
-        self.op = op
 
     def cal(self):
-        if self.op == '-':
-            return self.a - self.b
-        elif self.op == '+':
-            return self.a + self.b
-        elif self.op == '*':
-            return self.a * self.b
-        elif self.op == '/':
-            return self.a / self.b
-        else:
-            print("Error op!")
-            return None
+        rst = None
+        return rst
 
-p = Program(2,3,'-')
-print(p.cal())
+
+class OpreationAdd(Opreation):
+    def __init__(self):
+        Opreation.__init__(self)
+
+    def cal(self):
+        return self.a + self.b
+
+
+class OpreationSub(Opreation):
+    def __init__(self):
+        Opreation.__init__(self)
+
+    def cal(self):
+        return self.a - self.b
+
+
+class SimpleFactory:
+    def __init__(self, op):
+        self.op = op
+
+    def getOperation(self):
+        if self.op == '+':
+            return OpreationAdd()
+        elif self.op == '-':
+            return OpreationSub()
+
+
+sim = SimpleFactory('-').getOperation()
+sim.a = 3
+sim.b = 1
+print(sim.cal())
